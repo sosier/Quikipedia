@@ -1,2 +1,2 @@
-# Summarizing Wikipedia
-*I'm currently working on summarizing Wikipedia pages. Stay tuned for more!*
+# Quikipedia
+*Live Flask app, blog post, and README coming soon!*

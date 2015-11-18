@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--A Sean Osier Production-->
+<html lang="en">
+  <head>
+    <title>Quikipedia</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+    <!-- Import page CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css"/>
+
+    <!-- Import javascript libraries: jQuery, d3 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <!-- Page JS script -->
+    <script src="static/js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div id="title_topic_box">
+        <!-- Title / Logo -->
+        <h1 id="title_header"><a class="title_link" href="/">QuikipediA</a></h1>
+
+        <!-- Input bar -->
+        <form class="topic_box" action="javascript: go()">
+          <input type="text" class="topic_input" id="topic_input">
+          <input type="submit" class="go_button" id="go_button" value="Go">
+        </form>
+      </div>
+      <br>
+
+      <!-- Summary results display box -->
+      <div id="summary_box">
+        <h3 id="summarized_topic"></h3>
+        <img id="loading_gif" src="static/img/loading.gif" alt="Loading summary"/>
+        <p id="summary_p"></p>
+        <a id="more_info_link" class="more_info_link" href="https://en.wikipedia.org/wiki/">Learn more on Wikipedia</a>
+        <br>
+      </div>
+
+      <!-- Decorative bar -->
+      <div class="decorative_bar decorative_bar_top"></div>
+    </div>
+  </body>
+</html>
